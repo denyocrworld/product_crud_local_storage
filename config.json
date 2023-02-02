@@ -1,0 +1,7 @@
+{
+    "openai_key": "",
+    "modules": [
+        "product_list",
+        "product_form"
+    ]
+}

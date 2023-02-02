@@ -3,8 +3,6 @@ We believe, the class name must be unique.
 If there is a conflicting class name in this file,
 it means you have to rename it to something more unique.
 */
-export 'package:hyper_ui/config.dart';
-export 'package:hyper_ui/core_package.dart';
 export 'package:hyper_ui/module/dashboard/controller/dashboard_controller.dart';
 export 'package:hyper_ui/module/dashboard/view/dashboard_view.dart';
 export 'package:hyper_ui/module/favorite/controller/favorite_controller.dart';
@@ -13,6 +11,10 @@ export 'package:hyper_ui/module/main_navigation/controller/main_navigation_contr
 export 'package:hyper_ui/module/main_navigation/view/main_navigation_view.dart';
 export 'package:hyper_ui/module/order/controller/order_controller.dart';
 export 'package:hyper_ui/module/order/view/order_view.dart';
+export 'package:hyper_ui/module/product_form/controller/product_form_controller.dart';
+export 'package:hyper_ui/module/product_form/view/product_form_view.dart';
+export 'package:hyper_ui/module/product_list/controller/product_list_controller.dart';
+export 'package:hyper_ui/module/product_list/view/product_list_view.dart';
 export 'package:hyper_ui/module/profile/controller/profile_controller.dart';
 export 'package:hyper_ui/module/profile/view/profile_view.dart';
 export 'package:hyper_ui/module/__example/imran/imran_dashboard/controller/imran_dashboard_controller.dart';
@@ -24,7 +26,6 @@ export 'package:hyper_ui/module/__example/shakuro/shakuro_dashboard/view/shakuro
 export 'package:hyper_ui/module/__example/shakuro/shakuro_product_detail/controller/shakuro_product_detail_controller.dart';
 export 'package:hyper_ui/module/__example/shakuro/shakuro_product_detail/view/shakuro_product_detail_view.dart';
 export 'package:hyper_ui/service/main_storage/main_storage.dart';
-export 'package:hyper_ui/setup.dart';
 export 'package:hyper_ui/shared/theme/theme.dart';
 export 'package:hyper_ui/shared/theme/theme_config.dart';
 export 'package:hyper_ui/shared/theme/theme_dark.dart';
@@ -68,4 +69,6 @@ export 'package:hyper_ui/shared/widget/form/__form_example.dart';
 export 'package:hyper_ui/shared/widget/list/list_view.dart';
 export 'package:hyper_ui/shared/widget/menu/menu.dart';
 export 'package:hyper_ui/shared/widget/scaffold/q_scaffold.dart';
-export 'package:hyper_ui/state_util.dart';
+export 'core_package.dart';
+export 'state_util.dart';
+export 'setup.dart';
